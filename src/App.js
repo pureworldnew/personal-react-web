@@ -10,8 +10,6 @@ import Skills from "./components/skills";
 import Experience from "./components/experience";
 import Footer from "./components/footer";
 
-import resumePDF from "./icons/nick_lin_resume.pdf";
-
 ReactGA.initialize("UA-162783096-1"); //init Google Analytics
 
 function App() {
@@ -27,9 +25,6 @@ function App() {
         <Section />
         <Skills />
         <Experience />
-        <a href={resumePDF} target="_blank" rel="noopener noreferrer">
-          Resume
-        </a>
       </header>
       <Footer />
     </div>

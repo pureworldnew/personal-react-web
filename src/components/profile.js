@@ -5,7 +5,8 @@ import githubIcon from "../icons/github_icon.svg";
 import linkedlnIcon from "../icons/linkedln_icon.png";
 import mePic from "../icons/new.png";
 import emailIcon from "../icons/email_icon.png";
-
+import resumeIcon from "../icons/resume.png";
+import resumePDF from "../icons/nick_lin_resume.pdf";
 //Just name
 function Name() {
   return <h2>Nick Lin</h2>;
@@ -34,6 +35,10 @@ function SocialLinks(props) {
       <a href="mailto:pureworldnew@gmail.com" rel="noopener noreferrer">
         <img id="profile-icon-linkedin" src={emailIcon} alt="" />
         Email Me
+      </a>
+      <a href={resumePDF} target="_blank" rel="noopener noreferrer">
+        <img id="profile-icon-linkedin" src={resumeIcon} alt="" />
+        Resume
       </a>
     </h5>
   );
