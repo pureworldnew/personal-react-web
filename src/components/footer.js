@@ -5,7 +5,7 @@ export default class Profile extends Component {
     return (
       <div className="footer">
         <h4>
-          <a href="https://github.com/nicklin/react-personal-website">
+          <a href="https://github.com/pureworldnew/personal-react-web">
             Designed and Built by Nick Lin
             <div className="padding-top">2021, GitHub Pages</div>
           </a>
