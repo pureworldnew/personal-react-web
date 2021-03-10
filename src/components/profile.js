@@ -15,12 +15,17 @@ function Name() {
 function SocialLinks(props) {
   return (
     <h5>
-      <a href="https://www.github.com/pureworldnew" rel="noopener noreferrer">
+      <a
+        href="https://www.github.com/pureworldnew"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img id="profile-icon" src={githubIcon} alt="" />
         Github
       </a>
       <a
         href="https://www.linkedin.com/in/nickstardev"
+        target="_blank"
         rel="noopener noreferrer"
       >
         <img id="profile-icon-linkedin" src={linkedlnIcon} alt="" />

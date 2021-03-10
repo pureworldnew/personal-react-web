@@ -5,7 +5,11 @@ export default class Profile extends Component {
     return (
       <div className="footer">
         <h4>
-          <a href="https://github.com/pureworldnew/personal-react-web">
+          <a
+            href="https://github.com/pureworldnew/personal-react-web"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Designed and Built by Nick Lin
             <div className="padding-top">2021, GitHub Pages</div>
           </a>
