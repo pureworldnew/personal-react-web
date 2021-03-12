@@ -10,7 +10,7 @@ import Skills from "./components/skills";
 import Experience from "./components/experience";
 import Footer from "./components/footer";
 
-ReactGA.initialize("UA-162783096-1"); //init Google Analytics
+ReactGA.initialize("UA-191985965-1"); //init Google Analytics
 
 function App() {
   useEffect(() => {
