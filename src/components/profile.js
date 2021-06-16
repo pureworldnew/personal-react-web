@@ -6,7 +6,7 @@ import linkedlnIcon from "../icons/linkedln_icon.png";
 import mePic from "../icons/new.png";
 import emailIcon from "../icons/email_icon.png";
 import resumeIcon from "../icons/resume.png";
-import resumePDF from "../icons/nick_lin_resume.pdf";
+import resumePDF from "../icons/resume.pdf";
 //Just name
 function Name() {
   return <h2>Nick Lin</h2>;
