@@ -19,15 +19,6 @@ function Date(props) {
   return <span>{props.date}</span>;
 }
 
-//longer title
-function Short(props) {
-  return (
-    <h4>
-      <em>{props.desc}</em>
-    </h4>
-  );
-}
-
 //all relavent languages and tools used in project
 function Label(props) {
   return <span className="label">{props.label}</span>;
@@ -48,88 +39,90 @@ export default class Section extends Component {
         </div>
         <div id="section">
           <div id="date">
-            <Date date="2020" />
+            <Date date="2021" />
           </div>
           <div>
-            <Title name="zenview.co" link="https://www.zenview.co" />
-            <Short desc="Revenue, Renewals and Account Management with presentations that make your life easier." />
+            <Title name="meetwithdev.com" link="https://meetwithdev.com/" />
             <div id="labels">
               <Label label="JavaScript" />
-              <Label label="React.js" />
+              <Label label="Vue" />
+              <Label label="Vuex" />
+              <Label label="CSS" />
+              <Label label="Python" />
+              <Label label="Django" />
+              <Label label="AWS" />
+              <Label label="PostgreSQL" />
+            </div>
+            <Desc
+              desc="Building Front-end Pages from scratch with
+              Vue, Backend architecture design and development
+              using Django Framework including PostgreSQL DB
+              design"
+            />
+          </div>
+        </div>
+
+        <div id="section">
+          <div id="date">
+            <Date date="2019-2021" />
+          </div>
+          <div>
+            <Title name="populous.world" link="https://populous.world/" />
+            <Title name="covid19japan.com" link="https://covid19japan.com/" />
+            <Title
+              name="coinmarketcap.com/currencies/populous"
+              link="https://coinmarketcap.com/currencies/populous/"
+            />
+            <div id="labels">
+              <Label label="JavaScript" />
+              <Label label="React" />
               <Label label="Redux-Saga" />
               <Label label="React Hook" />
-              <Label label="Node.js" />
+              <Label label="CSS" />
+              <Label label="Node" />
               <Label label="Express" />
+              <Label label="AWS" />
+              <Label label="MySQL" />
             </div>
             <Desc
-              desc="Building Contracts/Revenue/Accounts/Reports/
-Dashboard /Settings Module for the company from Figma
-design, Database Schema Design / Migration/Seed/
-Performance tuning/ Data importing from Google Sheet into
-DB, Deployment / CI / CD / Jenkins /AWS."
+              desc="Building Front-end Pages from scratch with
+              React, Backend architecture design and development
+              using Node Framework including MySQL DB design"
             />
           </div>
         </div>
 
         <div id="section">
           <div id="date">
-            <Date date="2020" />
+            <Date date="2018-2019" />
           </div>
           <div>
+            <Title name="testbericht.de" link="https://www.testbericht.de/" />
             <Title
-              name="purpletowing.com"
-              link="https://www.purpletowing.com"
+              name="beta.testbericht.de"
+              link="https://beta.testbericht.de/"
             />
-            <Short desc="Powering Dublin Port From 2020 to the future" />
             <div id="labels">
-              <Label label="JavaScript" />
-              <Label label="React.js" />
-              <Label label="Node.js" />
-              <Label label="Express" />
-              <Label label="AWS EC2" />
-              <Label label="AWS RDS" />
-            </div>
-            <Desc
-              desc="Building Front-end Pages according to Figma design,
-Backend architecture design and development using
-node/express including DB design, and Deployment into
-AWS using EC2, PM2, Nginx."
-            />
-          </div>
-        </div>
-
-        <div id="section">
-          <div id="date">
-            <Date date="2020" />
-          </div>
-          <div>
-            <Title name="shoottheframe.com" link="https://shoottheframe.com/" />
-            <Short desc="Join photographers from around the globe and submit your best portrait, landscape and wildlife photos." />
-            <div id="labels">
+              <Label label="Vue" />
+              <Label label="Django" />
               <Label label="Javascript" />
-              <Label label="Angular 7" />
-              <Label label="Angular Universal" />
-              <Label label="Node.js" />
-              <Label label="Express" />
+              <Label label="Python" />
+              <Label label="PHP" />
               <Label label="AWS" />
             </div>
             <Desc
-              desc="Rebuilding using Angular Universal for SSR and Fine
-tuning / bug fix of existing Project."
+              desc="Migrating Core PHP based website into
+              Vue/Django based website"
             />
           </div>
         </div>
 
         <div id="section">
           <div id="date">
-            <Date date="2020" />
+            <Date date="2016-2018" />
           </div>
           <div>
-            <Title name="visualsociety.com" link="https://visualsociety.com" />
-            <Short
-              desc="The easiest way to
-sell photos & art"
-            />
+            <Title name="oohyah.com" link="https://oohyah.com/" />
             <div id="labels">
               <Label label="HTML" />
               <Label label="CSS" />
@@ -139,20 +132,18 @@ sell photos & art"
               <Label label="Laravel" />
             </div>
             <Desc
-              desc="Building Front-end Pages from scratch, Backend
-architecture design and development using Laravel
-Framework including DB design."
+              desc="MVC Terminology based on AngularJs, Laravel Framework,
+              Rest API development"
             />
           </div>
         </div>
 
         <div id="section">
           <div id="date">
-            <Date date="2017~2019" />
+            <Date date="2014~2016" />
           </div>
           <div>
-            <Title name="testbericht.de" link="https://www.testbericht.de/" />
-            <Short desc="Ihr Portal für Testberichte und Vergleiche!" />
+            <Title name="kindertales.com" link="https://www.kindertales.com/" />
             <div id="labels">
               <Label label="HTML" />
               <Label label="CSS" />
@@ -163,114 +154,11 @@ Framework including DB design."
               <Label label="MySQL" />
             </div>
             <Desc
-              desc="Building website from scratch with Cron job, api
-integration."
-            />
-          </div>
-        </div>
-
-        <div id="section">
-          <div id="date">
-            <Date date="2019" />
-          </div>
-          <div>
-            <Title name="hexui.com" link="https://hexui.com" />
-            <Short desc="Undetected CSGO Cheats and Hacks" />
-            <div id="labels">
-              <Label label="HTML" />
-              <Label label="CSS" />
-              <Label label="Javascript" />
-              <Label label="PHP" />
-              <Label label="Laravel" />
-              <Label label="MySQL" />
-            </div>
-            <Desc
-              desc="MVC Terminology based on AngularJs, Laravel
-Framework, Rest API development."
-            />
-          </div>
-        </div>
-
-        <div id="section">
-          <div id="date">
-            <Date date="2017" />
-          </div>
-          <div>
-            <Title name="test.strings.app" link="https://test.strings.app/" />
-            <Short desc="Strings Device Management " />
-            <div id="labels">
-              <Label label="JavaScript" />
-              <Label label="React.js" />
-              <Label label="Redux-Saga" />
-              <Label label="Node.js" />
-              <Label label="Express" />
-            </div>
-            <Desc
-              desc="Building Front-end pages using React/ReduxSaga/Javascript/CSS, and Designing DB for the business logic,
-              and building backend architecture using Node/Express,
-              Deployment of product to AWS using Nginx/PM2."
-            />
-          </div>
-        </div>
-
-        <div id="section">
-          <div id="date">
-            <Date date="2014~2018" />
-          </div>
-          <div>
-            <Title name="kindertales.com" link="https://kindertales.com/" />
-            <Short desc="Providers, Teachers, Parents, Marketing" />
-            <div id="labels">
-              <Label label="Node.js" />
-              <Label label="Express" />
-              <Label label="Bootstrap" />
-              <Label label="CSS" />
-              <Label label="JavaScript" />
-              <Label label="Amazon RDS" />
-            </div>
-            <Desc desc="Pixel-perfect front-end development and highperformance back-end development." />
-          </div>
-        </div>
-
-        <div id="section">
-          <div id="date">
-            <Date date="2016~2017" />
-          </div>
-          <div>
-            <Title name="oohyah.com" link="https://oohyah.com" />
-            <Short desc="A Music Streaming Platform & Marketplace for Artists & Fans" />
-            <div id="labels">
-              <Label label="AngularJs" />
-              <Label label="HTML" />
-              <Label label="CSS" />
-              <Label label="Laravel" />
-              <Label label="MySQL" />
-            </div>
-            <Desc
-              desc="MVC Terminology based on AngularJs, Laravel
-Framework, Rest API development."
-            />
-          </div>
-        </div>
-
-        <div id="section">
-          <div id="date">
-            <Date date="2015~2017" />
-          </div>
-          <div>
-            <Title name="howtube.com" link="https://www.howtube.com/" />
-            <Short desc="A New Video / Audio Platform Built For The People, By The People" />
-            <div id="labels">
-              <Label label="HTML" />
-              <Label label="CSS" />
-              <Label label="Javascript" />
-              <Label label="PHP" />
-              <Label label="Yii 2.0" />
-              <Label label="MySQL" />
-            </div>
-            <Desc
-              desc="With Yii 2.0 Framework, I have built this website from the scratch to final version...
-              The most challenge for this web application development was to keep high performance of the web application with UI/UX design work..."
+              desc="With Core PHP and Javascript, HTML/CSS, I have built main
+              structure and architecture of the whole project (front-end & backend) and implemented different kinds of features for the
+              requirements of company and by contacting with team leader and
+              members.
+              I believe that was very pleasured period of my past freelancer career"
             />
           </div>
         </div>
