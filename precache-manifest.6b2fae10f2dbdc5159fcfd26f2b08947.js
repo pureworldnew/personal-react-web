@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d58fa251d057194977db7d96d681be45",
+    "revision": "37e13d74c1358270840fca7c397240ea",
     "url": "/personal-react-web/index.html"
   },
   {
-    "revision": "f4e18d93cfc87bb1318b",
+    "revision": "8810b93299faef63739a",
     "url": "/personal-react-web/static/css/main.31f4fbea.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-react-web/static/js/2.57638fa5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4e18d93cfc87bb1318b",
-    "url": "/personal-react-web/static/js/main.20a75364.chunk.js"
+    "revision": "8810b93299faef63739a",
+    "url": "/personal-react-web/static/js/main.2a9dd5b9.chunk.js"
   },
   {
     "revision": "8f08c6bbd1bede242e5a",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-react-web/static/media/new.04ba7db2.png"
   },
   {
-    "revision": "3487a2228a9e6cd4da068c9fef59ec9d",
-    "url": "/personal-react-web/static/media/resume.3487a222.pdf"
+    "revision": "00b5db1300dee75909bd29bd5b8a5781",
+    "url": "/personal-react-web/static/media/resume.00b5db13.pdf"
   },
   {
     "revision": "e81540635b3b33f7b358185832bc93ce",
