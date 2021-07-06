@@ -30,9 +30,6 @@ export default class Skills extends Component {
             <SkillPoint point="HTML" />
             <SkillPoint point="CSS" />
             <SkillPoint point="PHP" />
-            <SkillPoint point="Java" />
-            <SkillPoint point="SQL" />
-            <SkillPoint point="C#" />
           </div>
           <div id="skill-section">
             <Skill title="Frameworks" />
@@ -41,8 +38,6 @@ export default class Skills extends Component {
             <SkillPoint point="Vue" />
             <SkillPoint point="Angular" />
             <SkillPoint point="Laravel" />
-            <SkillPoint point="Symfony" />
-            <SkillPoint point="Yii" />
             <SkillPoint point="Django" />
           </div>
           <div id="skill-section">
