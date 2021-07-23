@@ -32,7 +32,7 @@ function SocialLinks(props) {
         <img id="profile-icon-linkedin" src={linkedlnIcon} alt="" />
         LinkedIn
       </a>
-      <a href="mailto:pureworldnew@gmail.com" rel="noopener noreferrer">
+      <a href="mailto:nicklin1993812@gmail.com" rel="noopener noreferrer">
         <img id="profile-icon-linkedin" src={emailIcon} alt="" />
         Email Me
       </a>
@@ -48,7 +48,7 @@ function SocialLinks(props) {
 function Short(props) {
   return (
     <div className="padding-top" id="profile-description">
-      Senior Software Developer at React/Node/PHP/Python/Javascript
+      Senior Software Developer at Javascript/React/Node
     </div>
   );
 }

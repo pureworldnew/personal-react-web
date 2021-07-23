@@ -22,39 +22,19 @@ export default class Experience extends Component {
           <h2>&#187; Experience</h2>
         </div>
         <Job
-          co="meetwithdev.com"
-          title="Senior Web Developer"
-          date="Jan 2021 - Jun 2021"
+          co="Coinmarketcap"
+          title="Contract - React Developer"
+          date="Apr 2019 - Jun 2021"
         />
         <Job
-          co="populous.world"
-          title="Contract - Web Developer"
-          date="Sep 2019 - Jan 2021"
+          co="Shanghai Alliance Financial Services Co.,Ltd"
+          title="Contract - Javascript Developer"
+          date="Apr 2017 - Mar 2019"
         />
         <Job
-          co="covid19japan.com"
-          title="Contract - Web Developer"
-          date="Sep 2019 - Jan 2021"
-        />
-        <Job
-          co="coinmarketcap.com"
-          title="Contract - Web Developer"
-          date="Sep 2019 - Jan 2021"
-        />
-        <Job
-          co="testbericht.de"
+          co="Dandong Xintai Electric Co., Ltd"
           title="Contract - Software Engineer"
-          date="Sep 2018 - Dec 2019"
-        />
-        <Job
-          co="oohyah.com"
-          title="Contract - Web Dev"
-          date="May 2016 - Sep 2018"
-        />
-        <Job
-          co="kindertales.com"
-          title="Contract - PHP Developer"
-          date="Jul 2014 - Apr 2016"
+          date="Feb 2014 - Mar 2017"
         />
       </div>
     );

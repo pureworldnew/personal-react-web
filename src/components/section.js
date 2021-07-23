@@ -39,36 +39,9 @@ export default class Section extends Component {
         </div>
         <div id="section">
           <div id="date">
-            <Date date="2021" />
-          </div>
-          <div>
-            <Title name="meetwithdev.com" link="https://meetwithdev.com/" />
-            <div id="labels">
-              <Label label="JavaScript" />
-              <Label label="Vue" />
-              <Label label="Vuex" />
-              <Label label="CSS" />
-              <Label label="Python" />
-              <Label label="Django" />
-              <Label label="AWS" />
-              <Label label="PostgreSQL" />
-            </div>
-            <Desc
-              desc="Building Front-end Pages from scratch with
-              Vue, Backend architecture design and development
-              using Django Framework including PostgreSQL DB
-              design"
-            />
-          </div>
-        </div>
-
-        <div id="section">
-          <div id="date">
             <Date date="2019-2021" />
           </div>
           <div>
-            <Title name="populous.world" link="https://populous.world/" />
-            <Title name="covid19japan.com" link="https://covid19japan.com/" />
             <Title
               name="coinmarketcap.com/currencies/populous"
               link="https://coinmarketcap.com/currencies/populous/"
@@ -85,80 +58,62 @@ export default class Section extends Component {
               <Label label="MySQL" />
             </div>
             <Desc
-              desc="Building Front-end Pages from scratch with
-              React, Backend architecture design and development
-              using Node Framework including MySQL DB design"
+              desc="Built a RESTful API for a mobile app and web application with PHP, Laravel, Node.js, and Express.js.
+and deployed them to AWS EC2 and designed a large and complicated database and optimized queries for better performance.
+Implemented React UI features and fixed bugs using React, Redux-Saga, Semantic-UI.
+Created several React components with Plotty charts that support interactive visualizations of data
+projections and analysis"
             />
           </div>
         </div>
 
         <div id="section">
           <div id="date">
-            <Date date="2018-2019" />
+            <Date date="2017-2019" />
           </div>
           <div>
-            <Title name="testbericht.de" link="https://www.testbericht.de/" />
-            <Title
-              name="beta.testbericht.de"
-              link="https://beta.testbericht.de/"
-            />
+            <Title name="zenview.co" link="https://www.zenview.co/" />
             <div id="labels">
-              <Label label="Vue" />
-              <Label label="Django" />
+              <Label label="React" />
+              <Label label="Node" />
               <Label label="Javascript" />
-              <Label label="Python" />
-              <Label label="PHP" />
+              <Label label="Redux-Saga" />
+              <Label label="React Hooks" />
               <Label label="AWS" />
             </div>
             <Desc
-              desc="Migrating Core PHP based website into
-              Vue/Django based website"
+              desc="Managed MERN development using Agile methodology. Implemented a back-end REST API for real-time location updates using PHP, MySQL, and Google Maps
+              API.Integrated social networking APIs like Facebook, Twitter, and Instagram.Implemented payment modules using Stripe and Paypal"
             />
           </div>
         </div>
 
         <div id="section">
           <div id="date">
-            <Date date="2016-2018" />
+            <Date date="2014~2017" />
           </div>
           <div>
-            <Title name="oohyah.com" link="https://oohyah.com/" />
-            <div id="labels">
-              <Label label="HTML" />
-              <Label label="CSS" />
-              <Label label="JavaScript" />
-              <Label label="Jquery" />
-              <Label label="PHP" />
-              <Label label="Laravel" />
-            </div>
-            <Desc
-              desc="MVC Terminology based on AngularJs, Laravel Framework,
-              Rest API development"
+            <Title
+              name="test.strings.app"
+              link="https://www.test.strings.app/"
             />
-          </div>
-        </div>
-
-        <div id="section">
-          <div id="date">
-            <Date date="2014~2016" />
-          </div>
-          <div>
-            <Title name="kindertales.com" link="https://www.kindertales.com/" />
             <div id="labels">
               <Label label="HTML" />
               <Label label="CSS" />
               <Label label="JavaScript" />
-              <Label label="JQuery" />
-              <Label label="Bootstrap" />
-              <Label label="Core PHP" />
+              <Label label="React" />
+              <Label label="Node" />
+              <Label label="Express" />
               <Label label="MySQL" />
+              <Label label="AWS EC2" />
             </div>
             <Desc
-              desc="With Core PHP and Javascript, HTML/CSS, I have built main
-              structure and architecture of the whole project (front-end & backend) and implemented different kinds of features for the
-              requirements of company and by contacting with team leader and
-              members.
-              I believe that was very pleasured period of my past freelancer career"
+              desc="Developed a React single page application with rich feature sets targeted mainly for charts data
+              visualization using React as the front-end framework.Reduced a React and Node.js application downtime from five seconds to one second, resulting in a 97%
+              uptime by implementing an auto-reconnecting WebSocket library.Implemented RESTful security standards for both the React front end and Node.js back end as defined by
+              OSWAP.Lowered deployment time by 70% for 50 live instances by integrating a Jenkins pipeline into the React repository
+              Automated manual data entry systems in the projects using React, resulting in a 50% reduction in the
+              application processing delay and 30% less error in data inconsistency."
             />
           </div>
         </div>
