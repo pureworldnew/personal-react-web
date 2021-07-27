@@ -7,6 +7,7 @@ import mePic from "../icons/new.png";
 import emailIcon from "../icons/email_icon.png";
 import resumeIcon from "../icons/resume.png";
 import resumePDF from "../icons/resume.pdf";
+import calendarIcon from "../icons/calendar.png";
 //Just name
 function Name() {
   return <h2>Nick Lin</h2>;
@@ -15,7 +16,7 @@ function Name() {
 //all social links
 function SocialLinks(props) {
   return (
-    <h5>
+    <h6>
       <a
         href="https://www.github.com/pureworldnew"
         target="_blank"
@@ -40,7 +41,15 @@ function SocialLinks(props) {
         <img id="profile-icon-linkedin" src={resumeIcon} alt="" />
         Resume
       </a>
-    </h5>
+      <a
+        href="https://calendly.com/nick-meet"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img id="profile-icon-linkedin" src={calendarIcon} alt="" />
+        Calendar
+      </a>
+    </h6>
   );
 }
 
