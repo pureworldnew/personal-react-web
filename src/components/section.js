@@ -58,11 +58,8 @@ export default class Section extends Component {
               <Label label="MySQL" />
             </div>
             <Desc
-              desc="Built a RESTful API for a mobile app and web application with PHP, Laravel, Node.js, and Express.js.
-and deployed them to AWS EC2 and designed a large and complicated database and optimized queries for better performance.
-Implemented React UI features and fixed bugs using React, Redux-Saga, Semantic-UI.
-Created several React components with Plotty charts that support interactive visualizations of data
-projections and analysis"
+              desc="Developed Front-end Web Pages according to Figma design, in full responsive mode. Implemented React UI features with REST API integration using React, Redux-Saga, Material-UI. Created several React components with Recharts that support interactive visualizations of data projections
+and analysis. Performance fine tuning by removing unnecessary component rendering. Node/Express REST system architecture design/implementation with DB design"
             />
           </div>
         </div>
@@ -72,7 +69,7 @@ projections and analysis"
             <Date date="2017-2019" />
           </div>
           <div>
-            <Title name="zenview.co" link="https://www.zenview.co/" />
+            <Title name="Populous World" link="https://populous.world/" />
             <div id="labels">
               <Label label="React" />
               <Label label="Node" />
@@ -82,21 +79,19 @@ projections and analysis"
               <Label label="AWS" />
             </div>
             <Desc
-              desc="Managed MERN development using Agile methodology. Implemented a back-end REST API for real-time location updates using PHP, MySQL, and Google Maps
-              API.Integrated social networking APIs like Facebook, Twitter, and Instagram.Implemented payment modules using Stripe and Paypal"
+              desc="React Front-end web pages with figma design, in full responsive mode. Building different kinds of components using functional components using react Material UI, redux-saga,
+              hooks. Node/Express REST API architecture design/implementation including Database schema design according
+              to the business logic"
             />
           </div>
         </div>
 
         <div id="section">
           <div id="date">
-            <Date date="2014~2017" />
+            <Date date="2016~2017" />
           </div>
           <div>
-            <Title
-              name="test.strings.app"
-              link="https://www.test.strings.app/"
-            />
+            <Title name="Interlink" link="https://www.strings.app/" />
             <div id="labels">
               <Label label="HTML" />
               <Label label="CSS" />
@@ -108,13 +103,53 @@ projections and analysis"
               <Label label="AWS EC2" />
             </div>
             <Desc
-              desc="Developed a React single page application with rich feature sets targeted mainly for charts data
-              visualization using React as the front-end framework.Reduced a React and Node.js application downtime from five seconds to one second, resulting in a 97%
-              uptime by implementing an auto-reconnecting WebSocket library.Implemented RESTful security standards for both the React front end and Node.js back end as defined by
-              OSWAP.Lowered deployment time by 70% for 50 live instances by integrating a Jenkins pipeline into the React repository
-              Automated manual data entry systems in the projects using React, resulting in a 50% reduction in the
-              application processing delay and 30% less error in data inconsistency."
+              desc="Implemented Front-end UI using React/Reactstrap/CSS3. Implemented a back-end REST system for Node/Express.js/PostgreSQL, and Google Maps API. Integrated social networking APIs like Facebook, Implemented payment modules using Stripe and Paypal. Automated manual data entry systems in the projects using React, resulting in a 50% reduction in the
+application processing delay and 30% less error in data inconsistency."
             />
+          </div>
+        </div>
+
+        <div id="section">
+          <div id="date">
+            <Date date="2015~2016" />
+          </div>
+          <div>
+            <Title
+              name="Shanghai Alliance Financial Services Co.,Ltd"
+              link="https://www.sail-fs.com/en/"
+            />
+            <div id="labels">
+              <Label label="HTML5" />
+              <Label label="CSS3" />
+              <Label label="JavaScript" />
+              <Label label="Jquery" />
+              <Label label="Bootstrap" />
+              <Label label="PHP" />
+              <Label label="Laravel" />
+              <Label label="Google API" />
+            </div>
+            <Desc desc="Building several website / web application using HTML5/CSS3/Bootstrap/Jquery/Javascript. Implemented a back-end REST API using PHP/Laravel, MySQL. Basic User authentication/authorization implementation. Social user registration/login with Google, Facebook API integration. Database Design/Implementation according to the Business logic ( CRM )" />
+          </div>
+        </div>
+
+        <div id="section">
+          <div id="date">
+            <Date date="2013~2015" />
+          </div>
+          <div>
+            <Title
+              name="Dandong Xintai Electric Co., Ltd"
+              link="https://www.sail-fs.com/en/"
+            />
+            <div id="labels">
+              <Label label="HTML5" />
+              <Label label="CSS3" />
+              <Label label="PHP" />
+              <Label label="Laravel" />
+              <Label label="Database design" />
+              <Label label="MySQL" />
+            </div>
+            <Desc desc="Building several website / web application using HTML5/CSS3/Bootstrap/Jquery/Javascript. Implemented a back-end REST API using PHP/Laravel, MySQL. Basic User authentication/authorization implementation. Social user registration/login with Google, Facebook API integration. Database Design/Implementation according to the Business logic ( CRM )" />
           </div>
         </div>
       </div>

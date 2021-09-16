@@ -24,17 +24,27 @@ export default class Experience extends Component {
         <Job
           co="Coinmarketcap"
           title="Contract - React Developer"
-          date="Apr 2019 - Jun 2021"
+          date="Apr 2019 - Jul 2021"
+        />
+        <Job
+          co="Populous World"
+          title="Contract - React Developer"
+          date="Apr 2017 - Mar 2019"
+        />
+        <Job
+          co="Interlink"
+          title="Contract - React Developer"
+          date="Feb 2016 - Apr 2017"
         />
         <Job
           co="Shanghai Alliance Financial Services Co.,Ltd"
           title="Contract - Javascript Developer"
-          date="Apr 2017 - Mar 2019"
+          date="Apr 2015 - Feb 2016"
         />
         <Job
           co="Dandong Xintai Electric Co., Ltd"
           title="Contract - Software Engineer"
-          date="Feb 2014 - Mar 2017"
+          date="Feb 2013 - Apr 2015"
         />
       </div>
     );
