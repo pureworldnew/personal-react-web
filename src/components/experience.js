@@ -33,7 +33,7 @@ export default class Experience extends Component {
         />
         <Job
           co="Interlink"
-          title="Contract - React Developer"
+          title="Contract - React/Node Developer"
           date="Feb 2016 - Apr 2017"
         />
         <Job
