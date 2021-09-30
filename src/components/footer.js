@@ -10,7 +10,7 @@ export default class Profile extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Designed and Built by Nick Lin
+            Designed and Built by Dante Roland
             <div className="padding-top">2021, GitHub Pages</div>
           </a>
         </h4>

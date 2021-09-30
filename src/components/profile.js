@@ -10,7 +10,7 @@ import resumePDF from "../icons/resume.pdf";
 import calendarIcon from "../icons/calendar.png";
 //Just name
 function Name() {
-  return <h2>Nick Lin</h2>;
+  return <h2>Dante Roland</h2>;
 }
 
 //all social links
@@ -26,14 +26,14 @@ function SocialLinks(props) {
         Github
       </a>
       <a
-        href="https://www.linkedin.com/in/nickstardev"
+        href="https://www.linkedin.com/in/danteroland/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img id="profile-icon-linkedin" src={linkedlnIcon} alt="" />
         LinkedIn
       </a>
-      <a href="mailto:nicklin1993812@gmail.com" rel="noopener noreferrer">
+      <a href="mailto:danterolandupgmail.com" rel="noopener noreferrer">
         <img id="profile-icon-linkedin" src={emailIcon} alt="" />
         Email Me
       </a>
@@ -42,7 +42,7 @@ function SocialLinks(props) {
         Resume
       </a>
       <a
-        href="https://calendly.com/nick-meet"
+        href="https://calendly.com/danterolandup"
         target="_blank"
         rel="noopener noreferrer"
       >
