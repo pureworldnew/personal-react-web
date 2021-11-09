@@ -43,8 +43,8 @@ export default class Section extends Component {
           </div>
           <div>
             <Title
-              name="coinmarketcap.com/currencies/populous"
-              link="https://coinmarketcap.com/currencies/populous/"
+              name="With - meetwithanyone.com"
+              link="https://meetwithdev.com/"
             />
             <div id="labels">
               <Label label="JavaScript" />
@@ -69,7 +69,7 @@ and analysis. Performance fine tuning by removing unnecessary component renderin
             <Date date="2017-2019" />
           </div>
           <div>
-            <Title name="Populous World" link="https://populous.world/" />
+            <Title name="BMR Thermal Inc" link="https://www.bmrthermal.com/" />
             <div id="labels">
               <Label label="React" />
               <Label label="Node" />
