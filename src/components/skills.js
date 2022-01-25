@@ -25,20 +25,20 @@ export default class Skills extends Component {
         <div className="skills">
           <div id="skill-section">
             <Skill title="Languages" />
-            <SkillPoint point="JavaScript" />
+            <SkillPoint point="JavaScript/Typescript" />
             <SkillPoint point="Python" />
-            <SkillPoint point="HTML" />
+            <SkillPoint point="HTML5/CSS3/SCSS" />
             <SkillPoint point="CSS" />
             <SkillPoint point="PHP" />
           </div>
           <div id="skill-section">
             <Skill title="Frameworks" />
-            <SkillPoint point="Node" />
-            <SkillPoint point="React" />
+            <SkillPoint point="Node/Express" />
+            <SkillPoint point="React/Redux-Saga/Hooks" />
             <SkillPoint point="Vue" />
             <SkillPoint point="Angular" />
-            <SkillPoint point="Laravel" />
-            <SkillPoint point="Django" />
+            <SkillPoint point="Laravel/Codeigniter" />
+            <SkillPoint point="Django/Flask" />
           </div>
           <div id="skill-section">
             <Skill title="DB and Cloud" />
@@ -47,6 +47,7 @@ export default class Skills extends Component {
             <SkillPoint point="PostgreSQL" />
             <SkillPoint point="Google Cloud" />
             <SkillPoint point="AWS" />
+            <SkillPoint point="Azure" />
             <SkillPoint point="Heroku" />
             <SkillPoint point="Git + Github" />
             <SkillPoint point="CI/CD + PM2 + Nginx" />
