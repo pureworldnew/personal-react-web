@@ -8,6 +8,7 @@ import emailIcon from "../icons/email_icon.png";
 import resumeIcon from "../icons/resume.png";
 import resumePDF from "../icons/resume.pdf";
 import calendarIcon from "../icons/calendar.png";
+import videoIcon from "../icons/video.png";
 //Just name
 function Name() {
   return <h2>Dante Roland</h2>;
@@ -48,6 +49,15 @@ function SocialLinks(props) {
       >
         <img id="profile-icon-linkedin" src={calendarIcon} alt="" />
         Calendar
+      </a>
+
+      <a
+        href="https://www.youtube.com/watch?v=wPZ78JcITb8&ab_channel=DanteRoland"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img id="profile-icon-linkedin" src={videoIcon} alt="" />
+        Intro
       </a>
     </h6>
   );
