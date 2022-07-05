@@ -19,14 +19,6 @@ function SocialLinks(props) {
   return (
     <h6>
       <a
-        href="https://www.github.com/pureworldnew"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img id="profile-icon" src={githubIcon} alt="" />
-        Github
-      </a>
-      <a
         href="https://www.linkedin.com/in/danteroland/"
         target="_blank"
         rel="noopener noreferrer"
